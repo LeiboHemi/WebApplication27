@@ -17,6 +17,7 @@ namespace WebApplication27.Controllers
         public PagesController(WebApplication27Context context)
         {
             _context = context;
+            int b = 2;
         }
 
         // GET: Pages
