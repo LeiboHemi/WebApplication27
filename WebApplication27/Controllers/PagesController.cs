@@ -12,7 +12,7 @@ namespace WebApplication27.Controllers
 {
     public class PagesController : Controller
     {
-        private readonly WebApplication27Context _context;
+        private readonly WebApplication27Context _context; 
 
         public PagesController(WebApplication27Context context)
         {
