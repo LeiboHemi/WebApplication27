@@ -18,11 +18,13 @@ namespace WebApplication27.Controllers
         {
             _context = context;
             int a = 1;
+            
         }
 
         // GET: Pages
         public async Task<IActionResult> Index()
         {
+            int b = 2;
             return View(await _context.Page.ToListAsync());
         }
 
